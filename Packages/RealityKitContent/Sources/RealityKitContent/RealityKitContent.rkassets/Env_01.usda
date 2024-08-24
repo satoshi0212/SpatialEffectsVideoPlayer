@@ -1,0 +1,63 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.0.5.508.2)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "SkyDome" (
+        prepend references = @SkyDome.usdz@
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def Xform "Video_Dock" (
+        references = None
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, 0.800000011920929, -3)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "Player"
+        {
+            double3 xformOp:translate = (0, 0.699999988079071, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitComponent "CustomDockingRegion"
+            {
+                token info:id = "RealityKit.CustomDockingRegion"
+
+                def RealityKitStruct "m_bounds"
+                {
+                    float3 max = (1.2, 0.5, 0)
+                    float3 min = (-1.2, -0.5, -0)
+                }
+            }
+        }
+
+        def "Ground" (
+            prepend references = @Ground.usda@
+        )
+        {
+            float3 xformOp:translate = (0, -0.6, 0)
+
+            over "Mesh"
+            {
+            }
+        }
+    }
+}
+

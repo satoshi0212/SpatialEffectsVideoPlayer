@@ -1,0 +1,137 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.0.5.508.2)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    float3 xformOp:scale = (0.5579889, 0.5579889, 0.5579889)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def Xform "ParticleEmitter"
+    {
+        float3 xformOp:scale = (50, 20, 50)
+        float3 xformOp:translate = (0, 3, 3)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "VFXEmitter"
+        {
+            token info:id = "RealityKit.VFXEmitter"
+
+            def RealityKitStruct "currentState"
+            {
+                token birthDirection = "Constant"
+                token birthLocation = "Volume"
+                float3 emissionDirection = (0, 1, 0)
+                double emissionDuration = 0.21
+                double emissionDurationVariation = 0
+                token emitterShape = "Plane"
+                double idleDuration = 0
+                double idleDurationVariation = 0
+                bool isLocal = 0
+                bool isSpawningEnabled = 1
+                bool loops = 1
+                float particleSpeed = -5
+                float particleSpeedVariation = 5
+                float3 shapeSize = (0.1, 1, 0.1)
+                bool spawnInheritParentColor = 0
+                token spawnOccasion = "OnBirth"
+                float spawnSpreadFactor = 0.2
+                float spawnSpreadFactorVariation = 0
+                float spawnVelocityFactor = 0.4
+                double warmupDuration = 0
+
+                def RealityKitStruct "mainEmitter"
+                {
+                    float3 acceleration = (0, 0, 0)
+                    token billboardMode = "Billboard"
+                    float birthRate = 6000
+                    float birthRateVariation = 1000
+                    token blendMode = "Additive"
+                    float colorEvolutionPower = 1
+                    float dampingFactor = 0
+                    float4 endColorA = (0.0013309671, 0.03458923, 1, 1)
+                    float4 endColorB = (0.11386989, 0.0064959256, 0.10626237, 1)
+                    bool isLightingEnabled = 0
+                    float noiseAnimationSpeed = 0
+                    float noiseScale = 1
+                    float noiseStrength = 4
+                    token opacityOverLife = "Constant"
+                    float particleAngle = 0
+                    float particleAngleVariation = 0
+                    float particleAngularVelocity = 0
+                    float particleAngularVelocityVariation = 0
+                    asset particleImage = @ParticleEmitterPresetTextures/rain.png@
+                    double particleLifeSpan = 0.8
+                    double particleLifeSpanVariation = 0.002
+                    float particleMass = 1
+                    float particleMassVariation = 0
+                    float particleSize = 0.002
+                    float particleSizeVariation = 0.0005
+                    float3 radialGravityCenter = (1, 1, 0)
+                    float radialGravityStrength = 0
+                    float sizeMultiplierAtEndOfLifespan = 1
+                    float sizeMultiplierAtEndOfLifespanPower = 1
+                    token sortOrder = "IncreasingDepth"
+                    float spreadingAngle = 0.02
+                    float4 startColorA = (1, 1, 1, 0.19)
+                    float4 startColorB = (1, 1, 1, 0.14)
+                    float stretchFactor = 3
+                    bool useEndColor = 0
+                    bool useEndColorRange = 0
+                    bool useStartColorRange = 1
+                    float3 vortexDirection = (0, 1, 0)
+                    float vortexStrength = 0
+                }
+
+                def RealityKitStruct "spawnedEmitter"
+                {
+                    float3 acceleration = (0, -3, 0)
+                    token billboardMode = "Billboard"
+                    float birthRate = 300
+                    float birthRateVariation = 0
+                    token blendMode = "Additive"
+                    float colorEvolutionPower = 1
+                    float dampingFactor = 0
+                    float4 endColorA = (0.0013309671, 0.03458923, 1, 1)
+                    float4 endColorB = (0.11386989, 0.0064959256, 0.10626237, 1)
+                    bool isLightingEnabled = 0
+                    float noiseAnimationSpeed = 0
+                    float noiseScale = 0
+                    float noiseStrength = 0
+                    token opacityOverLife = "Constant"
+                    float particleAngle = 0
+                    float particleAngleVariation = 0
+                    float particleAngularVelocity = 0
+                    float particleAngularVelocityVariation = 0
+                    double particleLifeSpan = 0.06
+                    double particleLifeSpanVariation = 0.004
+                    float particleMass = 1
+                    float particleMassVariation = 0
+                    float particleSize = 0.0012
+                    float particleSizeVariation = 0
+                    float3 radialGravityCenter = (0, -3, -3)
+                    float radialGravityStrength = 0
+                    float sizeMultiplierAtEndOfLifespan = 1
+                    float sizeMultiplierAtEndOfLifespanPower = 1
+                    token sortOrder = "IncreasingID"
+                    float spreadingAngle = 1.2
+                    float4 startColorA = (1, 1, 1, 0.42)
+                    float4 startColorB = (1, 1, 1, 1)
+                    float stretchFactor = 0.3
+                    bool useEndColor = 0
+                    bool useEndColorRange = 0
+                    bool useStartColorRange = 0
+                    float3 vortexDirection = (0, 1, 0)
+                    float vortexStrength = 0
+                }
+            }
+        }
+    }
+}
+

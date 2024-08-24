@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0DAE652C75518A0067D917 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAE642C75518A0067D917 /* AVPlayerView.swift */; };
+		8E0DAE672C7551980067D917 /* AVPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAE662C7551980067D917 /* AVPlayerViewModel.swift */; };
+		8E0DAEF92C7591300067D917 /* ImmersiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAEF82C7591300067D917 /* ImmersiveViewModel.swift */; };
+		8E0DAEFB2C75A9B80067D917 /* Entity+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAEFA2C75A9B80067D917 /* Entity+.swift */; };
+		8E0DAF002C75B95B0067D917 /* LineParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAEFD2C75B95B0067D917 /* LineParticleView.swift */; };
+		8E0DAF012C75B95B0067D917 /* LineParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAEFE2C75B95B0067D917 /* LineParticleViewModel.swift */; };
+		8E0DAF052C75C05D0067D917 /* RainParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAF032C75C05D0067D917 /* RainParticleViewModel.swift */; };
+		8E0DAF062C75C05D0067D917 /* RainParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAF022C75C05D0067D917 /* RainParticleView.swift */; };
+		8E0DAF0A2C75C2F40067D917 /* FireworksParticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAF082C75C2F40067D917 /* FireworksParticleViewModel.swift */; };
+		8E0DAF0B2C75C2F40067D917 /* FireworksParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAF072C75C2F40067D917 /* FireworksParticleView.swift */; };
+		8E0DAF142C76FD950067D917 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 8E0DAF132C76FD950067D917 /* RealityKitContent */; };
+		8E0DAF172C76FFC20067D917 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8E0DAF162C76FFC20067D917 /* OSCKit */; };
+		8E0DAF192C76FFC20067D917 /* OSCKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8E0DAF182C76FFC20067D917 /* OSCKitCore */; };
+		8E0DAF282C77913B0067D917 /* Env01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAF272C77913B0067D917 /* Env01View.swift */; };
+		8E0DAF2A2C7791720067D917 /* Env01ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DAF292C7791720067D917 /* Env01ViewModel.swift */; };
+		8EFF66022C722C22001FC074 /* SpatialEffectsVideoPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF66012C722C22001FC074 /* SpatialEffectsVideoPlayerApp.swift */; };
+		8EFF66042C722C22001FC074 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF66032C722C22001FC074 /* ContentView.swift */; };
+		8EFF66062C722C22001FC074 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF66052C722C22001FC074 /* AppModel.swift */; };
+		8EFF66082C722C22001FC074 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF66072C722C22001FC074 /* ToggleImmersiveSpaceButton.swift */; };
+		8EFF660A2C722C22001FC074 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF66092C722C22001FC074 /* ImmersiveView.swift */; };
+		8EFF660C2C722C23001FC074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF660B2C722C23001FC074 /* Assets.xcassets */; };
+		8EFF660F2C722C23001FC074 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF660E2C722C23001FC074 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E0DAE642C75518A0067D917 /* AVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		8E0DAE662C7551980067D917 /* AVPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewModel.swift; sourceTree = "<group>"; };
+		8E0DAEF82C7591300067D917 /* ImmersiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveViewModel.swift; sourceTree = "<group>"; };
+		8E0DAEFA2C75A9B80067D917 /* Entity+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+.swift"; sourceTree = "<group>"; };
+		8E0DAEFD2C75B95B0067D917 /* LineParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineParticleView.swift; sourceTree = "<group>"; };
+		8E0DAEFE2C75B95B0067D917 /* LineParticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineParticleViewModel.swift; sourceTree = "<group>"; };
+		8E0DAF022C75C05D0067D917 /* RainParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainParticleView.swift; sourceTree = "<group>"; };
+		8E0DAF032C75C05D0067D917 /* RainParticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainParticleViewModel.swift; sourceTree = "<group>"; };
+		8E0DAF072C75C2F40067D917 /* FireworksParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksParticleView.swift; sourceTree = "<group>"; };
+		8E0DAF082C75C2F40067D917 /* FireworksParticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksParticleViewModel.swift; sourceTree = "<group>"; };
+		8E0DAF272C77913B0067D917 /* Env01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env01View.swift; sourceTree = "<group>"; };
+		8E0DAF292C7791720067D917 /* Env01ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env01ViewModel.swift; sourceTree = "<group>"; };
+		8EFF65FA2C722C22001FC074 /* SpatialEffectsVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialEffectsVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF66012C722C22001FC074 /* SpatialEffectsVideoPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialEffectsVideoPlayerApp.swift; sourceTree = "<group>"; };
+		8EFF66032C722C22001FC074 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EFF66052C722C22001FC074 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		8EFF66072C722C22001FC074 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
+		8EFF66092C722C22001FC074 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		8EFF660B2C722C23001FC074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EFF660E2C722C23001FC074 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EFF66102C722C23001FC074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFF65F72C722C22001FC074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0DAF142C76FD950067D917 /* RealityKitContent in Frameworks */,
+				8E0DAF172C76FFC20067D917 /* OSCKit in Frameworks */,
+				8E0DAF192C76FFC20067D917 /* OSCKitCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0DAEFC2C75B9270067D917 /* EffectModules */ = {
+			isa = PBXGroup;
+			children = (
+				8E0DAEFF2C75B95B0067D917 /* LineParticle */,
+				8E0DAF042C75C05D0067D917 /* RainParticle */,
+				8E0DAF092C75C2F40067D917 /* FireworksParticle */,
+				8E0DAF262C77912B0067D917 /* Env_01 */,
+			);
+			path = EffectModules;
+			sourceTree = "<group>";
+		};
+		8E0DAEFF2C75B95B0067D917 /* LineParticle */ = {
+			isa = PBXGroup;
+			children = (
+				8E0DAEFD2C75B95B0067D917 /* LineParticleView.swift */,
+				8E0DAEFE2C75B95B0067D917 /* LineParticleViewModel.swift */,
+			);
+			path = LineParticle;
+			sourceTree = "<group>";
+		};
+		8E0DAF042C75C05D0067D917 /* RainParticle */ = {
+			isa = PBXGroup;
+			children = (
+				8E0DAF022C75C05D0067D917 /* RainParticleView.swift */,
+				8E0DAF032C75C05D0067D917 /* RainParticleViewModel.swift */,
+			);
+			path = RainParticle;
+			sourceTree = "<group>";
+		};
+		8E0DAF092C75C2F40067D917 /* FireworksParticle */ = {
+			isa = PBXGroup;
+			children = (
+				8E0DAF072C75C2F40067D917 /* FireworksParticleView.swift */,
+				8E0DAF082C75C2F40067D917 /* FireworksParticleViewModel.swift */,
+			);
+			path = FireworksParticle;
+			sourceTree = "<group>";
+		};
+		8E0DAF262C77912B0067D917 /* Env_01 */ = {
+			isa = PBXGroup;
+			children = (
+				8E0DAF272C77913B0067D917 /* Env01View.swift */,
+				8E0DAF292C7791720067D917 /* Env01ViewModel.swift */,
+			);
+			path = Env_01;
+			sourceTree = "<group>";
+		};
+		8EFF65F12C722C22001FC074 = {
+			isa = PBXGroup;
+			children = (
+				8EFF65FC2C722C22001FC074 /* SpatialEffectsVideoPlayer */,
+				8EFF65FB2C722C22001FC074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFF65FB2C722C22001FC074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF65FA2C722C22001FC074 /* SpatialEffectsVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFF65FC2C722C22001FC074 /* SpatialEffectsVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF66012C722C22001FC074 /* SpatialEffectsVideoPlayerApp.swift */,
+				8EFF66052C722C22001FC074 /* AppModel.swift */,
+				8EFF66032C722C22001FC074 /* ContentView.swift */,
+				8EFF66072C722C22001FC074 /* ToggleImmersiveSpaceButton.swift */,
+				8EFF66092C722C22001FC074 /* ImmersiveView.swift */,
+				8E0DAEF82C7591300067D917 /* ImmersiveViewModel.swift */,
+				8E0DAE642C75518A0067D917 /* AVPlayerView.swift */,
+				8E0DAE662C7551980067D917 /* AVPlayerViewModel.swift */,
+				8E0DAEFA2C75A9B80067D917 /* Entity+.swift */,
+				8E0DAEFC2C75B9270067D917 /* EffectModules */,
+				8EFF660B2C722C23001FC074 /* Assets.xcassets */,
+				8EFF66102C722C23001FC074 /* Info.plist */,
+				8EFF660D2C722C23001FC074 /* Preview Content */,
+			);
+			path = SpatialEffectsVideoPlayer;
+			sourceTree = "<group>";
+		};
+		8EFF660D2C722C23001FC074 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF660E2C722C23001FC074 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFF65F92C722C22001FC074 /* SpatialEffectsVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFF66132C722C23001FC074 /* Build configuration list for PBXNativeTarget "SpatialEffectsVideoPlayer" */;
+			buildPhases = (
+				8EFF65F62C722C22001FC074 /* Sources */,
+				8EFF65F72C722C22001FC074 /* Frameworks */,
+				8EFF65F82C722C22001FC074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialEffectsVideoPlayer;
+			packageProductDependencies = (
+				8E0DAF132C76FD950067D917 /* RealityKitContent */,
+				8E0DAF162C76FFC20067D917 /* OSCKit */,
+				8E0DAF182C76FFC20067D917 /* OSCKitCore */,
+			);
+			productName = SpatialEffectsVideoPlayer;
+			productReference = 8EFF65FA2C722C22001FC074 /* SpatialEffectsVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFF65F22C722C22001FC074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8EFF65F92C722C22001FC074 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 8EFF65F52C722C22001FC074 /* Build configuration list for PBXProject "SpatialEffectsVideoPlayer" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EFF65F12C722C22001FC074;
+			packageReferences = (
+				8E0DAF122C76FD950067D917 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */,
+				8E0DAF152C76FFC20067D917 /* XCRemoteSwiftPackageReference "OSCKit" */,
+			);
+			productRefGroup = 8EFF65FB2C722C22001FC074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFF65F92C722C22001FC074 /* SpatialEffectsVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFF65F82C722C22001FC074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF660F2C722C23001FC074 /* Preview Assets.xcassets in Resources */,
+				8EFF660C2C722C23001FC074 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFF65F62C722C22001FC074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0DAE652C75518A0067D917 /* AVPlayerView.swift in Sources */,
+				8EFF66082C722C22001FC074 /* ToggleImmersiveSpaceButton.swift in Sources */,
+				8E0DAF052C75C05D0067D917 /* RainParticleViewModel.swift in Sources */,
+				8E0DAF062C75C05D0067D917 /* RainParticleView.swift in Sources */,
+				8EFF66042C722C22001FC074 /* ContentView.swift in Sources */,
+				8E0DAE672C7551980067D917 /* AVPlayerViewModel.swift in Sources */,
+				8E0DAF002C75B95B0067D917 /* LineParticleView.swift in Sources */,
+				8E0DAF0A2C75C2F40067D917 /* FireworksParticleViewModel.swift in Sources */,
+				8E0DAF0B2C75C2F40067D917 /* FireworksParticleView.swift in Sources */,
+				8E0DAF012C75B95B0067D917 /* LineParticleViewModel.swift in Sources */,
+				8E0DAF282C77913B0067D917 /* Env01View.swift in Sources */,
+				8E0DAF2A2C7791720067D917 /* Env01ViewModel.swift in Sources */,
+				8EFF660A2C722C22001FC074 /* ImmersiveView.swift in Sources */,
+				8E0DAEF92C7591300067D917 /* ImmersiveViewModel.swift in Sources */,
+				8EFF66062C722C22001FC074 /* AppModel.swift in Sources */,
+				8E0DAEFB2C75A9B80067D917 /* Entity+.swift in Sources */,
+				8EFF66022C722C22001FC074 /* SpatialEffectsVideoPlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8EFF66112C722C23001FC074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8EFF66122C722C23001FC074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		8EFF66142C722C23001FC074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialEffectsVideoPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.SpatialEffectsVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		8EFF66152C722C23001FC074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialEffectsVideoPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.SpatialEffectsVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFF65F52C722C22001FC074 /* Build configuration list for PBXProject "SpatialEffectsVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF66112C722C23001FC074 /* Debug */,
+				8EFF66122C722C23001FC074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFF66132C722C23001FC074 /* Build configuration list for PBXNativeTarget "SpatialEffectsVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF66142C722C23001FC074 /* Debug */,
+				8EFF66152C722C23001FC074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8E0DAF122C76FD950067D917 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/RealityKitContent;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E0DAF152C76FFC20067D917 /* XCRemoteSwiftPackageReference "OSCKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/OSCKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E0DAF132C76FD950067D917 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		8E0DAF162C76FFC20067D917 /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E0DAF152C76FFC20067D917 /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKit;
+		};
+		8E0DAF182C76FFC20067D917 /* OSCKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E0DAF152C76FFC20067D917 /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKitCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8EFF65F22C722C22001FC074 /* Project object */;
+}

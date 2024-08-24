@@ -1,0 +1,11 @@
+{
+  "pathsToIds" : {
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Env_01.usda" : "6660CD2E-8A7D-4B35-90AA-C36A61DD57E7",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Fireworks.usda" : "B37A446B-B28B-4D1D-B700-DCFB314CF1BC",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Ground.usda" : "76BB3162-03EF-49AF-BDB8-36D9A34392E4",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "C6A7F375-BFE9-46E0-9EA6-1A6B150F43FD",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/LineParticle.usda" : "1944B2C4-B3F8-436D-BE18-450293A64752",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/RainParticle.usda" : "AB23A89E-46B7-4D77-9EED-CA88FC2099CF",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Test.usda" : "9F93CBCA-99E9-448C-A1FD-22D51B651A37"
+  }
+}

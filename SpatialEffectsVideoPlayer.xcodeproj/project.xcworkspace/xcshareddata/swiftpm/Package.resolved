@@ -1,0 +1,33 @@
+{
+  "originHash" : "88c53d2a97607fe4c7adb5cb91b8c13a1207224927f99c9f5f6110af1a46d803",
+  "pins" : [
+    {
+      "identity" : "cocoaasyncsocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robbiehanson/CocoaAsyncSocket",
+      "state" : {
+        "revision" : "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
+        "version" : "7.6.5"
+      }
+    },
+    {
+      "identity" : "osckit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/orchetect/OSCKit",
+      "state" : {
+        "revision" : "998ceeeb06a53deda96ba29a1a581d417217e5f8",
+        "version" : "0.5.1"
+      }
+    },
+    {
+      "identity" : "swiftascii",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/orchetect/SwiftASCII",
+      "state" : {
+        "revision" : "81efd5731286be759e91096043be10384034ee57",
+        "version" : "1.1.3"
+      }
+    }
+  ],
+  "version" : 3
+}
